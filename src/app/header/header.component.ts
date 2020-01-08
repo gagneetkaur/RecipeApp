@@ -1,5 +1,6 @@
 import { Component,OnInit, EventEmitter } from '@angular/core';
 import {Output} from '@angular/Core';
+import {DropDownDirective} from '../shared/dropdown.directive';
 
 @Component({
 templateUrl: './header.component.html',

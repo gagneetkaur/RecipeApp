@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {Recipe} from '../recipe.model';
+import {DropDownDirective} from '../../shared/dropdown.directive';
 
 @Component({
   selector: 'app-recipe-detail',
