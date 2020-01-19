@@ -9,8 +9,8 @@ styleUrls: ['./header.component.scss']
 })
 
 export class HeaderComponent{
-    @Output() featureSelected = new EventEmitter<string>();
-    OnSelect(feature: string){
-        this.featureSelected.emit(feature);
-    }
+   // @Output() featureSelected = new EventEmitter<string>();
+    // OnSelect(feature: string){
+    //     this.featureSelected.emit(feature);
+    // }
 }
